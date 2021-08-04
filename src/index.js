@@ -78,7 +78,7 @@ const Index = () => {
     return (
         <div className="container">
             <Header title={'Bart 2.0 - the Creation'} 
-                onAdd={() => setShowAddTask(!showAddTask)} />
+                onAdd={() => setShowAddTask (!showAddTask)} showAdd={showAddTask} />
                 {showAddTask && <AddTask onAdd={addTask} />}
                 {tasks.length > 0 ? 
                 <Tasks tasks={tasks} onDelete=
