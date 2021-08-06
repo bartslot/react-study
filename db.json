@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "text": "Learn React promises, async etc.",
+      "day": "4 augustus at 18:00",
+      "reminder": true,
+      "id": 7
+    },
+    {
+      "text": "Learn About Routing",
+      "day": "thursday 5th of august",
+      "reminder": true,
+      "id": 8
+    },
+    {
+      "text": "Learn React Spring",
+      "day": "5 august 2021",
+      "reminder": false,
+      "id": 9
+    }
+  ]
+}
